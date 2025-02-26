@@ -1,0 +1,33 @@
+{
+    "name": "oriceonj/wmi",
+    "description": "A package for WMI manipulation using PHP and COM.",
+    "authors": [
+        {
+            "name": "Steve Bauman",
+            "email": "steven_bauman@outlook.com"
+        },
+        {
+            "name": "Valentin Ivascu",
+            "email": "oriceon@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stevebauman\\Wmi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stevebauman\\Wmi\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
