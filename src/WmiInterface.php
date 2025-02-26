@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi;
+namespace Oriceon\Wmi;
 
 interface WmiInterface
 {

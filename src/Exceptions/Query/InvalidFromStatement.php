@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Exceptions\Query;
+namespace Oriceon\Wmi\Exceptions\Query;
 
 use Exception;
 

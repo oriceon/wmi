@@ -1,12 +1,12 @@
 <?php
 
-namespace OriceOn\Wmi;
+namespace Oriceon\Wmi;
 
-use OriceOn\Wmi\Processors\HardDisks;
-use OriceOn\Wmi\Processors\Processors;
-use OriceOn\Wmi\Processors\Registry;
-use OriceOn\Wmi\Processors\Software;
-use OriceOn\Wmi\Query\Builder;
+use Oriceon\Wmi\Processors\HardDisks;
+use Oriceon\Wmi\Processors\Processors;
+use Oriceon\Wmi\Processors\Registry;
+use Oriceon\Wmi\Processors\Software;
+use Oriceon\Wmi\Query\Builder;
 
 class Connection implements ConnectionInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Query;
+namespace Oriceon\Wmi\Query;
 
 class Operator
 {

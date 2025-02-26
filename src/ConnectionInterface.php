@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi;
+namespace Oriceon\Wmi;
 
 interface ConnectionInterface
 {
@@ -14,28 +14,28 @@ interface ConnectionInterface
     /**
      * Returns a new Registry instance.
      *
-     * @return \OriceOn\Wmi\Processors\Registry
+     * @return \Oriceon\Wmi\Processors\Registry
      */
     public function registry();
 
     /**
      * Returns a new Processors instance.
      *
-     * @return \OriceOn\Wmi\Processors\Processors
+     * @return \Oriceon\Wmi\Processors\Processors
      */
     public function processors();
 
     /**
      * Returns a new HardDisks instance.
      *
-     * @return \OriceOn\Wmi\Processors\HardDisks
+     * @return \Oriceon\Wmi\Processors\HardDisks
      */
     public function hardDisks();
 
     /**
      * Returns a new QueryBuilder instance.
      *
-     * @return \OriceOn\Wmi\Query\Builder
+     * @return \Oriceon\Wmi\Query\Builder
      */
     public function newQuery();
 

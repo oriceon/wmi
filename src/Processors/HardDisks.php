@@ -1,9 +1,9 @@
 <?php
 
-namespace OriceOn\Wmi\Processors;
+namespace Oriceon\Wmi\Processors;
 
-use OriceOn\Wmi\Models\Variants\HardDisk;
-use OriceOn\Wmi\Schemas\Classes;
+use Oriceon\Wmi\Models\Variants\HardDisk;
+use Oriceon\Wmi\Schemas\Classes;
 
 class HardDisks extends AbstractProcessor
 {

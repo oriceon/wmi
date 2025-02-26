@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Processors;
+namespace Oriceon\Wmi\Processors;
 
 use Variant;
 

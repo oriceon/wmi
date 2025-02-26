@@ -1,8 +1,8 @@
 <?php
 
-namespace OriceOn\Wmi\Query;
+namespace Oriceon\Wmi\Query;
 
-use OriceOn\Wmi\ConnectionInterface;
+use Oriceon\Wmi\ConnectionInterface;
 
 interface BuilderInterface
 {

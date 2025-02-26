@@ -29,7 +29,7 @@ You're all set!
 
 To use WMI, you must create a new WMI instance. To interact with the current computer, just create a WMI instance:
     
-    use OriceOn\Wmi\Wmi;
+    use Oriceon\Wmi\Wmi;
     
     $wmi = new Wmi();
 

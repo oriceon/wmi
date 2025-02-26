@@ -1,8 +1,8 @@
 <?php
 
-namespace OriceOn\Wmi\Query\Expressions;
+namespace Oriceon\Wmi\Query\Expressions;
 
-use OriceOn\Wmi\Query\Operator;
+use Oriceon\Wmi\Query\Operator;
 
 class Select extends AbstractExpression
 {

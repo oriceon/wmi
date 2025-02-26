@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Models;
+namespace Oriceon\Wmi\Models;
 
 class AbstractModel
 {

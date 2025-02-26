@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Schemas;
+namespace Oriceon\Wmi\Schemas;
 
 class Classes
 {

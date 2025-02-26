@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "OriceOn\\Wmi\\": "src/"
+            "Oriceon\\Wmi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OriceOn\\Wmi\\Tests\\": "tests/"
+            "Oriceon\\Wmi\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable"

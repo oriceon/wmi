@@ -1,10 +1,10 @@
 <?php
 
-namespace OriceOn\Wmi\Tests\Unit\Query;
+namespace Oriceon\Wmi\Tests\Unit\Query;
 
 use Mockery;
-use OriceOn\Wmi\Query\Builder;
-use OriceOn\Wmi\Tests\Unit\UnitTestCase;
+use Oriceon\Wmi\Query\Builder;
+use Oriceon\Wmi\Tests\Unit\UnitTestCase;
 
 class BuilderTest extends UnitTestCase
 {
@@ -15,7 +15,7 @@ class BuilderTest extends UnitTestCase
 
     protected function setUp()
     {
-        $mockConnection = Mockery::mock('OriceOn\Wmi\ConnectionInterface');
+        $mockConnection = Mockery::mock('Oriceon\Wmi\ConnectionInterface');
 
         $this->builder = new Builder($mockConnection);
     }
@@ -24,7 +24,7 @@ class BuilderTest extends UnitTestCase
     {
         $this->builder->select(null);
 
-        $this->assertInstanceOf('OriceOn\Wmi\Query\Expressions\Select', $this->builder->getSelect());
+        $this->assertInstanceOf('Oriceon\Wmi\Query\Expressions\Select', $this->builder->getSelect());
         $this->assertEquals('SELECT *', $this->builder->getSelect()->build());
     }
 
@@ -62,7 +62,7 @@ class BuilderTest extends UnitTestCase
 
     public function testWhereInvalidOperator()
     {
-        $this->setExpectedException('OriceOn\Wmi\Exceptions\Query\InvalidOperatorException');
+        $this->setExpectedException('Oriceon\Wmi\Exceptions\Query\InvalidOperatorException');
 
         $this->builder->where('test', 'invalid', 'test');
     }
@@ -94,7 +94,7 @@ class BuilderTest extends UnitTestCase
 
     public function testGetWithoutFromStatementFailure()
     {
-        $this->setExpectedException('OriceOn\Wmi\Exceptions\Query\InvalidFromStatement');
+        $this->setExpectedException('Oriceon\Wmi\Exceptions\Query\InvalidFromStatement');
 
         $this->builder->get();
     }

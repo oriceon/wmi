@@ -1,13 +1,13 @@
 <?php
 
-namespace OriceOn\Wmi\Query;
+namespace Oriceon\Wmi\Query;
 
-use OriceOn\Wmi\Exceptions\Query\InvalidFromStatement;
-use OriceOn\Wmi\Query\Expressions\Within;
-use OriceOn\Wmi\Query\Expressions\From;
-use OriceOn\Wmi\Query\Expressions\Where;
-use OriceOn\Wmi\Query\Expressions\Select;
-use OriceOn\Wmi\ConnectionInterface;
+use Oriceon\Wmi\Exceptions\Query\InvalidFromStatement;
+use Oriceon\Wmi\Query\Expressions\Within;
+use Oriceon\Wmi\Query\Expressions\From;
+use Oriceon\Wmi\Query\Expressions\Where;
+use Oriceon\Wmi\Query\Expressions\Select;
+use Oriceon\Wmi\ConnectionInterface;
 
 class Builder implements BuilderInterface
 {
@@ -56,7 +56,7 @@ class Builder implements BuilderInterface
     /**
      * The current connection.
      *
-     * @var \OriceOn\Wmi\Connection
+     * @var \Oriceon\Wmi\Connection
      */
     private $connection;
 

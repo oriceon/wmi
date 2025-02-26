@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Tests\Unit;
+namespace Oriceon\Wmi\Tests\Unit;
 
 use PHPUnit_Framework_TestCase;
 

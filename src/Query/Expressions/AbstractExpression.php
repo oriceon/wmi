@@ -1,9 +1,9 @@
 <?php
 
-namespace OriceOn\Wmi\Query\Expressions;
+namespace Oriceon\Wmi\Query\Expressions;
 
-use OriceOn\Wmi\Exceptions\Query\InvalidOperatorException;
-use OriceOn\Wmi\Query\Operator;
+use Oriceon\Wmi\Exceptions\Query\InvalidOperatorException;
+use Oriceon\Wmi\Query\Operator;
 
 abstract class AbstractExpression
 {

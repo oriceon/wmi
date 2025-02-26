@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Query\Expressions;
+namespace Oriceon\Wmi\Query\Expressions;
 
 class Within extends AbstractExpression
 {

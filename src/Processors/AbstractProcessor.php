@@ -1,8 +1,8 @@
 <?php
 
-namespace OriceOn\Wmi\Processors;
+namespace Oriceon\Wmi\Processors;
 
-use OriceOn\Wmi\ConnectionInterface;
+use Oriceon\Wmi\ConnectionInterface;
 
 abstract class AbstractProcessor
 {

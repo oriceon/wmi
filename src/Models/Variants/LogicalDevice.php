@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Models\Variants;
+namespace Oriceon\Wmi\Models\Variants;
 
 class LogicalDevice extends ManagedSystemElement
 {

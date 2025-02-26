@@ -1,8 +1,8 @@
 <?php
 
-namespace OriceOn\Wmi\Processors;
+namespace Oriceon\Wmi\Processors;
 
-use OriceOn\Wmi\Models\Application;
+use Oriceon\Wmi\Models\Application;
 
 class Software extends AbstractProcessor
 {

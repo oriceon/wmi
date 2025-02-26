@@ -1,6 +1,6 @@
 <?php
 
-namespace OriceOn\Wmi\Query\Expressions;
+namespace Oriceon\Wmi\Query\Expressions;
 
 class Where extends AbstractExpression
 {
@@ -40,7 +40,7 @@ class Where extends AbstractExpression
      * @param mixed  $value
      * @param string $keyword
      *
-     * @throws \OriceOn\Wmi\Exceptions\Query\InvalidOperatorException
+     * @throws \Oriceon\Wmi\Exceptions\Query\InvalidOperatorException
      */
     public function __construct($column, $operator, $value = null, $keyword = null)
     {
