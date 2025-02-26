@@ -1,5 +1,5 @@
 {
-    "name": "oriceonj/wmi",
+    "name": "oriceon/wmi",
     "description": "A package for WMI manipulation using PHP and COM.",
     "authors": [
         {
